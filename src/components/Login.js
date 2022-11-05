@@ -6,11 +6,13 @@ const Login = () => {
     <div>
       <form>
         Enter username:
+        <br />
         <input type="text">
         </input>
         <br />
 
         Enter ps:
+        <br />
         <input type="password">
         </input>
         <br />
@@ -21,7 +23,7 @@ const Login = () => {
         
         <br />
         Don't have an account? 
-        <Link to="register">Click here</Link>
+        <Link to="/register">Click here</Link>
       </div>
     </div>
   )

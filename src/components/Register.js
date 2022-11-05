@@ -4,13 +4,18 @@ const Register = () => {
   return (
     <div>
       <form>
-        Enter username:
+        Enter NEW username:
+        <br />
         <input type="text">
         </input>
-        Enter ps:
+        <br />
+        Enter NEW ps:
+        <br />
         <input type="password">
         </input>
-        <button type="submit">Login</button>
+        <br />
+
+        <button type="submit">Register</button>
       </form>
     </div>
   )
